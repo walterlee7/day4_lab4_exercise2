@@ -19,7 +19,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-
     button.addEventListener("click", function () {
         let div = document.createElement('div');
         div.className = 'friend';
@@ -33,9 +32,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         let kayla = document.createTextNode('Kayla');
         h3.appendChild(kayla);
-
-        let friends = ['AARON:', 'KAYLA:', 'AMANDA:', 'MICHAEL:', 'DAVID:'];
-        let friend = ['Aaron', 'Kayla', 'Amanda', 'Michael', 'David']
 
         myFunction();
 
